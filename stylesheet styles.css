@@ -1,0 +1,200 @@
+header {
+    color: #000000;
+
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+
+}
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(assets/caro-rue-fc687Y3BDkU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides1 {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev {
+    left: 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+    font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+    color: cornflowerblue;
+}
+
+
+
+.quote {
+
+
+    border-color: darkgreen;
+    border-style: groove;
+
+}
+
+.intro {
+
+
+    border: 5px solid black;
+    font-family: "Pacifico", cursive;
+}
+
+slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slideshow-heading {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.quote-slide {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.quote-slide blockquote {
+    font-size: absolute;
+    margin: 0;
+    color: #333;
+    line-height: 1.5;
+    word-wrap: break-word;
+    /* Ensure long words break */
+}
+
+.quote-slide footer {
+    color: cornflowerblue;
+    /* Blue color for contrast */
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
+    background-color: black;
+    /* Green color */
+    border: none;
+    z-index: 1000;
+    transform: translateY(-50%);
+    /* Center vertically */
+}
+
+.next {
+    right: 0;
+}
+
+
+.next:hover {
+    background-color: black;
+    /* Darker green on hover */
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .next {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
