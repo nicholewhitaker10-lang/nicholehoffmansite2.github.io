@@ -1,0 +1,10 @@
+body {
+    /* translucent overlay using a semi-transparent white gradient over the image */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url("assets/erda-estremera-0ZxdAGG4aWU-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+
+}
